@@ -1,0 +1,15 @@
+body{
+	background : white;
+	margin : 0px;
+}
+#player {
+	width : 500px;
+	margin : 0px auto;
+	background : rgba(100,100,132,.8);
+}
+#tracksGrid>div{
+	border-bottom:1px solid  black;
+}
+.track img{
+    background-image: url("../images/no_image.jpg");
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="playerApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Venkat Music APP</title>
+    <!--
+    <link rel="stylesheet" href="http://siradakisarki.com/MusicPlayer/css/normalize.css">
+    <link rel="stylesheet" href="http://siradakisarki.com/MusicPlayer/css/style.css">
+    <link rel="stylesheet" href="http://siradakisarki.com/MusicPlayer/css/font-awesome.min.css">
+    -->
+    <link rel="stylesheet" href="css/player.css">
+</head>
+<body ng-controller="playerCTRL">
+<div venkat-player data-ng-init="init()">
+</div>
+<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/jquery-1.10.2.js"></script>
+<script src="js/lib/id3-minimized.js"></script>
+<script src="js/init.js"></script>
+<!-- controllers -->
+<script src="js/controllers/player-controller.js"></script>
+<!-- directives -->
+<script src="js/directives/player-directive.js"></script>
+<script src="js/directives/track-grid-directive.js"></script>
+<!-- services -->
+<script src="js/services/player-events.js"></script>
+</body>
+</html>

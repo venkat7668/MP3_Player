@@ -1,0 +1,13 @@
+<div>
+	 <span>Track</span>
+	 <span>Artist</span>
+	 <span>Album</span>
+</div>
+<div id="tracksGrid">
+	<div ng-repeat="track in tracks | orderBy:'title'" data-file={{track.file}} class="track" >
+        <img ng-src="{{track.image}}" width="120" height="120" />
+		<span>{{track.title}}</span> |
+		<span>{{track.artist}}</span> |
+		<span>{{track.album}}</span>
+	</div>
+</div>
